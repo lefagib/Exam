@@ -2,8 +2,9 @@
 name: Deploy to Ubuntu
 
 on: 
-  branches:
-    - prod
+  push:
+    branches:
+      - prod
 
 jobs:
   deploy:
